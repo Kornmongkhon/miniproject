@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+body {
+    font-family: 'TH Sarabun New', sans-serif;
+}
+
+.bodyy {
+    font-family: 'Sarabun', sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../../picture/p6.png");
+    backdrop-filter: blur(5px);
+    text-align: right; /* จัดเนื้อหาใน body ให้อยู่กึ่งกลาง */
+    /*padding-top: 100px;*/
+}
+
+.card {
+    width: 90%; /* เปลี่ยนความกว้างให้เป็นเปอร์เซ็นต์ */
+    max-width: 500px; /* สมดุลกับความกว้างสูงสุด */
+    /* margin: auto; ตำแหน่งให้อยู่กึ่งกลาง */
+    text-align: center;
+    
+    
+}
+
+img {
+    width: 180px;
+    height: 70px;
+}
+
+h4 {
+    margin-top: 20px;
+}
+
+.clock {
+    width: auto;
+    background: #999;
+    font-size: 28px;
+    padding: 10px 50px; /* ปรับพื้นที่ข้างหน้าและข้างหลัง */
+    font-family: 'Digital dream Fat'; /* ใส่ quote ที่ปลุกเป็น font family */
+    color: cyan;
+    text-shadow: 1px 1px 2px teal, 0 0 25px green, 0 0 5px darkturquoise;
+}
+
+.formgroup {
+    /* text-align: left; */
+    padding-top: 5%;
+}
+
+.formselect {
+    width: 65%;
+    margin-left: 21%;
+}
+
+.bi.bi-person-fill{
+    position: absolute;
+    margin-left: 12%;
+    margin-top: 0.5%;
+    font-size: 2rem;
+}
+
+.btngroup{
+    /* margin-left: 29%; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.footerdisplay {
+    margin-top: 10%;
+
+    background-color: bisque;
+    text-align: center;
+
+    
+}
+.cardbody{
+    background-color: white;
+    padding: 5rem;
+    border-radius: 10px;
+}
+
+
+/* .card-body {
+    flex: 1 1 auto;
+    padding: var(--#{$prefix}card-spacer-y) var(--#{$prefix}card-spacer-x);
+    color: var(--#{$prefix}card-color);
+  } */
